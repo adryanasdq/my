@@ -1,21 +1,22 @@
 // import { Provider } from 'react-redux';
 import { Container } from '@mui/material';
 // import { Main } from './components/main';
-import { Main2 } from './components/main2';
-import { Main3 } from './components/main3';
+// import { Main2 } from './components/main2';
+// import { Main3 } from './components/main3';
+import { MainRedux } from './toRedux/components/mainRedux';
 
 /* TODO:
 
 - Learn Fundamental         [x]
-- Custom Component          []
+- Custom Component          [x]
 - Form Validation with Zod  [x]
 - AI Assistant -> Cody      [x]
 - Material UI               [x]
-- Other hooks ?             []
+- Other hooks ?             [x]
 - Change to Typescript      [x]
 - Nextweb project           []
-- Redux                     []
-- ESLint                    []
+- Redux                     [x]
+- ESLint                    [x]
 
 */
 
@@ -27,11 +28,15 @@ function App() {
       <br />
       <br />
       <br /> */}
-      <Main2 />
+      {/* <Main2 /> */}
+      {/* <br />
       <br />
       <br />
-      <br />
-      <Main3 />
+      <Main3 /> */}
+      {/* <br />
+      <hr />
+      <br /> */}
+      <MainRedux />
     </Container>
     // </Provider>
   );
